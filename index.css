@@ -126,3 +126,30 @@ body {
   text-align: center;
   margin-top: 10px;
 }
+.lover-box{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width: 1140px;
+  height: 600px;
+  gap:50px;
+}
+.img-box img{
+  width:400px;
+  height:400px;
+}
+.img-box{
+  width: 400px;
+  height: 400px;
+}
+.plant-lover{
+  width: 400px;
+  height: 375px;
+}
+.gurur-rochona li{
+  margin-top: 15px;
+  margin-left: 40px;
+
+}
+
+
