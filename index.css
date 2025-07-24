@@ -1,12 +1,12 @@
 * {
-  box-sizing: border-box;
+  box-sizing:border-box;
   margin: 0;
   padding: 0;
 }
 
-body {
+ body {
   font-family: 'Segoe UI', sans-serif;
-  background-color: #fff;
+  background-color:white;
   color: #333;
   max-width: 1200px;
   height: auto;
@@ -17,9 +17,9 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 20px 40px;
-  background-color: #f8f8f8;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid;
   max-width: 1140px;
+  border: none;
 }
 
 .logo img {
@@ -85,8 +85,8 @@ body {
   display: grid;
   grid-template-columns: repeat(4,1fr);
   margin:10px;
-  margin-left:50px;
   gap:10px;
+  margin-left:50px;
   margin-top:20px;
 }
 .product{
@@ -126,30 +126,64 @@ body {
   text-align: center;
   margin-top: 10px;
 }
-.lover-box{
-  display:flex;
+
+
+.plant-lover{
+  display: flex;
+  align-items:center;
   justify-content: center;
-  align-items: center;
-  width: 1140px;
-  height: 600px;
-  gap:50px;
+  gap:40px;
+  position: relative;
+  margin-top: 100px;
 }
-.img-box img{
+
+.plant-img{
+  position: relative;
+  margin-left: 30px;
+}
+
+.plant-1{
   width:400px;
   height:400px;
 }
-.img-box{
-  width: 400px;
-  height: 400px;
+
+.spin-1{
+  position:absolute;
+  left:175px;
+  top:-60px;
+  z-index:2;
+  width: 150px;
+  animation:spin 2.5s linear infinite;
 }
-.plant-lover{
-  width: 400px;
-  height: 375px;
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.gurur-rochona {
+  max-width: 500px;
+}
+
+.gurur-rochona h1 {
+  font-size: 32px;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.gurur-rochona ul {
+  list-style: disc;
+  color: #979292;
+  font-size:18px;
+  margin-top:10px;
+  
+
 }
 .gurur-rochona li{
-  margin-top: 15px;
-  margin-left: 40px;
-
+  margin-top: 10px;
 }
 
 
