@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.nav-ber  a {
+  margin-left: 25px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.nav-ber a:hover {
+  color: #ff6600;
+}
+
+.image-section {
+  padding: 60px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  
+  
+}
+.title-ber{
+    margin: 20px;
+
+}
+
+.header-2 {
+  font-size:48px;
+  color: #222;
+}
+
+.header-2 span {
+  color: #ff6600;
+}
+
+.para-1 {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 18px;
+  color: #555;
+  line-height: 1.6;
+}
+
+.flower-img {
+  margin-top:40px;
+}
+
+.flower-img img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
