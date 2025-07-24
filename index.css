@@ -8,6 +8,8 @@ body {
   font-family: 'Segoe UI', sans-serif;
   background-color: #fff;
   color: #333;
+  max-width: 1200px;
+  height: auto;
 }
 
 .header {
@@ -17,6 +19,7 @@ body {
   padding: 20px 40px;
   background-color: #f8f8f8;
   border-bottom: 1px solid #ddd;
+  max-width: 1140px;
 }
 
 .logo img {
@@ -42,6 +45,7 @@ body {
   justify-content: center;
   align-items: center;
   margin: 20px;
+  max-width: 1140px;
   
   
 }
@@ -75,4 +79,50 @@ body {
   max-width: 100%;
   height: auto;
   border-radius: 8px;
+}
+.flower-box{
+  max-width:1140px;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  margin:10px;
+  margin-left:50px;
+  gap:10px;
+  margin-top:20px;
+}
+.product{
+  width:200px;
+  height:350px;
+
+}
+.product img{
+  width: 180px;
+  height: 250px;
+
+}
+.H4{
+  margin-left: 40px;
+}
+.price{
+  margin-left: 55px;
+}
+.button-1{
+  width: 180px;
+  margin-top: 5px;
+  background:#E95A08;
+  border:none;
+  padding: 5px;
+  color:#f8f8f8;
+  cursor: pointer;
+}
+.header-3{
+  text-align: center;
+
+}
+.header-3 span{
+  color: #ff6600;
+
+}
+.para-2{
+  text-align: center;
+  margin-top: 10px;
 }
