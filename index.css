@@ -515,7 +515,7 @@
   grid-template-columns: repeat(2,1fr);
   margin:10px;
   gap:10px;
-  margin-left:50px;
+  margin-left:30px;
   margin-top:20px;
 }
 .para-2{
@@ -643,6 +643,7 @@ gurur-rochona ul {
   margin:2px auto;
 }
 .input {
+  max-width: 150px;
   padding: 6px 8px;
   font-size: 16px;
   border: none;
@@ -652,6 +653,7 @@ gurur-rochona ul {
 .button-n {
   padding: 6px 12px;
   font-size:16px;
+  width: 100px;
   background-color: #f15a24;
   color: white;
   border: none;
